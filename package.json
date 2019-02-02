@@ -1,0 +1,33 @@
+{
+  "name": "doggo-backend",
+  "version": "1.0.0",
+  "description": "Lambda function to convert images from the crawler into a repetitive shape and size.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.383.0",
+    "lambda-local": "^1.5.2",
+    "pg": "^7.7.1",
+    "sharp": "^0.21.1",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0",
+    "sinon": "^7.2.3"
+  },
+  "scripts": {
+    "test": "nyc mocha tests/"
+  },
+  "keywords": [
+    "Doggo",
+    "Lambda",
+    "Photo",
+    "Image"
+  ],
+  "author": "Matthew Watson, Kaspar Shahzada",
+  "license": "MIT"
+}
